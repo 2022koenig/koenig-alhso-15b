@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href = "contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Koenig's Baseball Shop</h2>
+        <p>
+          Koenig's Baseball shop is your best and local baseball shop in town. We have great deals and offer hitting and pitching lessons for all ages. We sell amazing goods and we have great customer service. We have the best deals and the best trainers in town. 
+        </p>
+          
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://cdn.glitch.com/d5cecf4c-3322-44a9-ba83-c96e91bf05e1%2FBaseballShop%20(1).jpg?v=1575295150434"
+        />
+        <div>
+          <ul>
+            <li>Pitching lessons</li>
+            <li>Baseball Equipment</li>
+            <li>Great customer service</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Free hitting or pitching lesson</h4>
+        <p>
+          On your first hitting or pitching lesson at Koenig's baseball shop, you will get the lesson for free. This is a limited time deal and can be achieved by starting a 6 lesson training course, with the first lesson being free of cost, and the later lessons $30 per lesson.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Buy one, get one half off</h4>
+        <p>
+          When you buy one of our premium baseball bats or gloves, you get a second one half off. This is also a limited time deal and is only avaible on certain items.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+     <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+<script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+    
+  </body>
+</html>
